@@ -7,7 +7,7 @@
       "command": "cmd",
       "args": [
         "/c",
-        "javac \"${file}\" && java \"${fileBasenameNoExtension}\" < input.txt > output.txt"
+        "javac \"${file}\" && java \"${fileBasenameNoExtension}\""
       ],
       "group": {
         "kind": "build",
