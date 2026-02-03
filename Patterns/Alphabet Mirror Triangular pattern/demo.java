@@ -5,9 +5,16 @@ public class demo {
             for(int j = 0; j < 4-i; j++){
                 System.out.print(' ');
             }
-            //stars
+            //char
+            char ch = 'A';
+            int breakPoint = (i+1)/2;
             for(int j = 0; j < i+1; j++){
-                System.out.print('*'+" ");
+                System.out.print(ch +" ");
+                if(j < breakPoint){
+                ch++;
+                }else{
+                ch--;
+                } 
             }
             //space
             for(int j = 0; j < 4-i; j++){
