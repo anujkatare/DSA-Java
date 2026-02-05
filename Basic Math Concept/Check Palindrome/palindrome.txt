@@ -1,0 +1,11 @@
+A number is called a palindrome if reversing the number gives the same number.
+
+✅ Palindrome numbers
+
+121 → reverse = 121
+
+1221 → reverse = 1221
+
+7 → reverse = 7
+
+1001 → reverse = 1001
