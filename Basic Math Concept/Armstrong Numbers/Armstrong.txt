@@ -1,0 +1,15 @@
+Armstrong numbers (also called Narcissistic numbers) are numbers that are equal to the sum of their own digits raised to the power of the number of digits.
+
+Definition (simple words)
+
+A number is an Armstrong number if
+sum of (each digit ^ total digits) = the number itself
+
+EXAMPLE:
+
+Digits: 1, 5, 3
+Number of digits = 3
+
+1³ + 5³ + 3³
+= 1 + 125 + 27
+= 153 ✅
