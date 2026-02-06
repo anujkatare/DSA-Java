@@ -1,0 +1,5 @@
+divisors are the numbers that completely divides a certain number.
+
+Example:
+
+the divisors of 20 are 1,2,4,5,10,24 
