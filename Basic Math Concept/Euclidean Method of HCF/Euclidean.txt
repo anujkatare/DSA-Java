@@ -1,0 +1,6 @@
+Euclidean method is the optimize way to find HCF/GCD of two numbers.
+
+According to Euclids , the HCF of (a,b) is equal to the HCF of (a-b, b),
+HCF(a, b) = HCF(a-b, b). #{where a>b} &
+
+in programming => HCF(a, b) = HCF(a%b, b). #{where a>b}
