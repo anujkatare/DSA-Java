@@ -1,0 +1,5 @@
+recursion tree is like , if the base condition is {count == 4} then it will print 0,1,2,3 and then return.
+
+func called [print 0] --moves to--> func called [print 1] --moves to--> func called [print 2] --moves to--> func called [print 3]
+       ^                             |          ^                          |       ^                          |                                     
+       |__________ return ___________|          |_________ return _________|       |_________ return _________|
