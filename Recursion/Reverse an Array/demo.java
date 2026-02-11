@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+import Hashing.Introduction.demo;
+
 public class demo {
     public int f(int l, int r, int array[]) {
         if(l >= r){

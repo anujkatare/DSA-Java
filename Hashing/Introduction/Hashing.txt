@@ -1,0 +1,13 @@
+Hashing is a technique to store and find data very fast.
+
+like i have an array = [1,3,2,4,1,5]
+now mujhe janna haii kitne 1,2,3 hain toh if hum
+brute force approach lgayein toh loop lgana pdega
+or baar baar pura array chaanna pdega thats why hum
+ek naya array (hashArray) bna lete hain jisme hr number 
+k index pr element hota hai ki  vo kitne  hai in the array
+
+hashArray = [0, 2, 1, 1, 1, 1]
+indicies  =  0  1  2  3  4  5
+
+so that 0 are 0, 1 are 2, 2 is 1, 3 is 1, 4 is 1, 5 is 1
