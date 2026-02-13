@@ -11,6 +11,7 @@ public class demo {
            hashArray[array[i]] += 1;
         }
          int n = scanner.nextInt();
+          scanner.close(); 
          System.out.println(hashArray[n]);
         
         //most repeated element
