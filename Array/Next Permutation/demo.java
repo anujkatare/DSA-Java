@@ -21,7 +21,7 @@ public class demo {
               int temp = array[i];
               array[i] = array[pivotIndex];
               array[pivotIndex] = temp;
-
+              
               break;
             }  
         }
