@@ -2,15 +2,15 @@ public class demo {
     public static long nCr(int n, int r){
          int k = 1, l = 1, m = 1;
          for(int i = 1; i <= n; i++){
-            k *= i;
+            if(i<=n){
+              k *= i;
+            }else if(i<=r){
+              l *= i;
+            }else if(i<=(n-r)){
+              m *= i;
+            }
          }
-         for(int i = 1; i <= r; i++){
-            l *= i;
-         }
-         for(int i = 1; i <= (n-r); i++){
-            m *= i;
-         }
-
+        
          long ans = (k)/(l*m);
          return ans;
     }
