@@ -14,6 +14,9 @@ public class demo {
         }
         System.out.println(count);
     }
+    public static void optimal(int arr[], int x) {
+        
+    }
     public static void main(String[] args) {
         int array[] = {4,2,2,6,4};
         int k = 6;
